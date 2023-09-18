@@ -22,6 +22,7 @@
 		ZMK_MACRO(left_arrow,
 			bindings = <&macro_tap &kp MINUS &kp LT>;
 		)
+	};
 
         keymap {
                 compatible = "zmk,keymap";
