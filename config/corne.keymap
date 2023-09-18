@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 &mt {
-   tapping-term-ms = <150>;
+   tapping-term-ms = <200>;
 };
 
 / {
@@ -23,12 +23,13 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &mt LALT TAB &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &mt RALT DEL
-   &mt LCTRL ESC &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &mt RCTRL SQT
-   &mt LG(LC(LALT)) LBRC &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mt RG(RC(RALT)) RBRC
-                  &kp LSHFT &mo 1 &kp SPACE   &kp RET &mo 2 &kp BSPC
+   &none &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U &kp I &kp O &kp P &none
+   &none &mt LCTL A &mt LALT S &mt LG(LC(LALT)) D &mt LSHFT F &mt LGUI G   &mt RGUI H &mt RSHFT J &mt RG(RC(RALT)) K &mt RALT L &mt RCTRL SEMI &none
+   &none &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &none
+                  &mo 1 &mt LSHFT ESC &kp SPACE   &kp RET &kp BSPC &mo 2  
                         >;
                 };
+
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
@@ -36,10 +37,10 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &trans
-   &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &trans &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                            &trans &trans   &trans &trans   &trans    &trans
+   &none &kp F1 &kp F2 &kp F3 &kp F4 &kp F5   &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &none
+   &none &kp N1 &kp N2 &kp N3 &kp N4 &kp N5   &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp F11 &none
+   &none &kp N6 &kp N7 &kp N8 &kp N9 &kp N0   &kp HOME &kp PGDN &kp PGUP &kp END &kp F12 &none
+                       &trans &trans &trans   &trans &trans &trans
                         >;
                 };
 
