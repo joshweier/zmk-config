@@ -20,7 +20,7 @@
 		)
 
 		ZMK_MACRO(left_arrow,
-			bindings = <&macro_tap &kp MINUS &kp LT>;
+			bindings = <&macro_tap &kp LT &kp MINUS>;
 		)
 	};
 
