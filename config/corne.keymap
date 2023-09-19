@@ -32,7 +32,7 @@
                                      &none &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U &kp I &kp O &kp P &none
    &none &mt LCTL A &mt LALT S &mt LG(LC(LALT)) D &mt LSHFT F &mt LGUI G   &mt RGUI H &mt RSHFT J &mt RG(RC(RALT)) K &mt RALT L &mt RCTRL SEMI &none
                                      &none &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &none
-                                           &mo 2 &mt LSHFT ESC &kp SPACE   &kp RET &kp BSPC &mo 1  
+                                           &none &lt 2 ESC &mt LSHFT SPACE   &kp RET &lt 1 BSPC &none  
                         >;
                 };
 
