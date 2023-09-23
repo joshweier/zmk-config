@@ -23,7 +23,7 @@
 		td: tapdance {
 		    compatible = "zmk,behavior-tap-dance";
 		    label = "TD";
-		    #binding-cells = <0>;
+		    #binding-cells = <2>;
 		    tapping-term-ms = <150>;
 		    bindings = <&kp>, <&kp>;
 		};
