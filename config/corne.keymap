@@ -55,7 +55,7 @@
 		    label = "TD_QUOTE";
 		    #binding-cells = <0>;
 		    tapping-term-ms = <150>;
-		    bindings = <&kp SQT>, <&kp DQT>;
+		    bindings = <&kp DQT>, <&kp SQT>;
 		};
 		td_apos: tapdance_apos {
 		    compatible = "zmk,behavior-tap-dance";
