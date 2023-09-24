@@ -17,6 +17,11 @@
 		    key-positions = <38 39>;
 		    bindings = <&caps_word>;
 		};
+		combo_tab {
+		    timeout-ms = <50>;
+		    key-positions = <37 40>;
+		    bindings = <&kp TAB>;
+		};
 	    };
 
 	behaviors {
