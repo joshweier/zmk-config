@@ -29,7 +29,7 @@
 		    compatible = "zmk,behavior-hold-tap";
 		    label = "HOMEROW_MODS";
 		    #binding-cells = <2>;
-		    tapping-term-ms = <200>;
+		    tapping-term-ms = <175>;
 		    quick_tap_ms = <0>;
 		    flavor = "tap-preferred";
 		    bindings = <&kp>, <&kp>;
@@ -41,7 +41,7 @@
 		    tapping-term-ms = <150>;
 		    quick_tap_ms = <0>;
 		    flavor = "tap-preferred";
-		    bindings = <&lt>, <&kp>;
+		    bindings = <&mo>, <&kp>;
 		};
 		td_par: tapdance_par {
 		    compatible = "zmk,behavior-tap-dance";
