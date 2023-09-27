@@ -114,7 +114,7 @@
                 raise_layer {
                         bindings = <
    &none &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS &kp KP_MULTIPLY &td_par &kp TILDE &none
-&none &kp C_PREV &kp C_PP &kp C_NEXT &left_arrow &right_arrow   &kp MINUS &kp EQUAL &td_quote &td_brace &kp APOS &none 
+&none &kp C_PREV &kp C_PP &kp C_NEXT &left_arrow &right_arrow   &kp MINUS &kp EQUAL &td_quote &td_brace &td_apos &none 
                  &bt BT_CLR &none &none &none &none &kp DEL   &kp UNDER &kp PLUS &kp SQT &td_bracket &kp BSLH &none
                                 &trans &trans &trans   &kp TAB &trans &trans
                         >;
