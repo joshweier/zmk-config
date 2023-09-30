@@ -53,21 +53,21 @@
 		    flavor = "tap-preferred";
 		    bindings = <&mo>, <&kp>;
 		};
-		td_par: tapdance {
+		td_par: tdpar {
 		    compatible = "zmk,behavior-tap-dance";
 		    label = "TDPAR";
 		    #binding-cells = <0>;
 		    tapping-term-ms = <150>;
 		    bindings = <&kp LPAR>, <&kp RPAR>;
 		};
-		td_brc: tapdance {
+		td_brc: tdbrc {
 		    compatible = "zmk,behavior-tap-dance";
 		    label = "TDBRC";
 		    #binding-cells = <0>;
 		    tapping-term-ms = <150>;
 		    bindings = <&kp LBRC>, <&kp RBRC>;
 		};
-		td_bkt: tapdance {
+		td_bkt: tdbkt {
 		    compatible = "zmk,behavior-tap-dance";
 		    label = "TDBKT";
 		    #binding-cells = <0>;
