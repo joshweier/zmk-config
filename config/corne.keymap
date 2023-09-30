@@ -18,17 +18,17 @@
 		    bindings = <&caps_word>;
 		};
 		combo_tab {
-		    timeout-ms = <50>;
+		    timeout-ms = <100>;
 		    key-positions = <1 10>;
 		    bindings = <&kp TAB>;
 		};
 		combo_enter {
-		    timeout-ms = <50>;
+		    timeout-ms = <100>;
 		    key-positions = <19 20>;
 		    bindings = <&kp RET>;
 		};
 		combo_esc {
-		    timeout-ms = <50>;
+		    timeout-ms = <100>;
 		    key-positions = <13 22>;
 		    bindings = <&kp ESC>;
 		};
@@ -94,7 +94,7 @@
                                      &none &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U &kp I &kp O &kp P &none
          &none &hm LCTL A &hm LALT S &hm LG(LC(LALT)) D &hm LSFT F &hm LGUI G   &hm RGUI H &hm RSFT J &hm RG(RC(RALT)) K &hm RALT L &hm RCTRL SEMI &none
                                      &none &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &none
-                                         &none &mo 2 &kp SPACE   &kp BSPC &mo 1 &none  
+                                         &none &ltf 2 ESC &kp SPACE   &kp BSPC &mo 1 &none  
                         >;
                 };
 
