@@ -33,22 +33,22 @@
 		    bindings = <&caps_word>;
 		};
 		combo_tab {
-		    timeout-ms = <100>;
+		    timeout-ms = <50>;
 		    key-positions = <1 10>;
 		    bindings = <&kp TAB>;
 		};
 		combo_enter {
-		    timeout-ms = <100>;
+		    timeout-ms = <50>;
 		    key-positions = <13 22>;
 		    bindings = <&kp RET>;
 		};
 		combo_enter_r {
-		    timeout-ms = <100>;
-		    key-positions = <19 22>;
+		    timeout-ms = <50>;
+		    key-positions = <19 20>;
 		    bindings = <&kp RET>;
 		};
 		combo_sys {
-		    timeout-ms = <100>;
+		    timeout-ms = <50>;
 		    key-positions = <25 34>;
 		    bindings = <&to 3>;
 		};
@@ -59,7 +59,7 @@
 		    compatible = "zmk,behavior-hold-tap";
 		    label = "HOMEROW_MODS";
 		    #binding-cells = <2>;
-		    tapping-term-ms = <175>;
+		    tapping-term-ms = <200>;
 		    quick_tap_ms = <0>;
 		    flavor = "tap-preferred";
 		    bindings = <&kp>, <&kp>;
