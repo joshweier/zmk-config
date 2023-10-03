@@ -42,6 +42,11 @@
 		    key-positions = <13 22>;
 		    bindings = <&kp RET>;
 		};
+		combo_enter_r {
+		    timeout-ms = <100>;
+		    key-positions = <18 22>;
+		    bindings = <&kp RET>;
+		};
 		combo_sys {
 		    timeout-ms = <100>;
 		    key-positions = <25 34>;
