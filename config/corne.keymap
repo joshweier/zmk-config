@@ -97,12 +97,12 @@
 		)
 	};
 
+	&mmv {
+		time-to-max-speed-ms = <400>;
+	};
+
         keymap {
                 compatible = "zmk,keymap";
-
-		mmv {
-			time-to-max-speed-ms = <400>;
-		};
 
                 default_layer {
                        bindings = <
