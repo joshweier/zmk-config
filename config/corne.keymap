@@ -25,13 +25,13 @@
 		};
 		combo_enter {
 		    timeout-ms = <100>;
-		    key-positions = <19 20>;
+		    key-positions = <13 22>;
 		    bindings = <&kp RET>;
 		};
-		combo_esc {
+		combo_sys {
 		    timeout-ms = <100>;
-		    key-positions = <13 22>;
-		    bindings = <&kp ESC>;
+		    key-positions = <25 34>;
+		    bindings = <&to 3>;
 		};
 	    };
 
@@ -119,10 +119,10 @@
 
                 sys_layer {
                         bindings = <
+            &none &none &none &none &none &none   &none &none &mmv MOVE_UP &none &none &none
+            &none &none &none &none &none &none   &none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none &none
             &none &none &none &none &none &none   &none &none &none &none &none &none
-            &none &none &none &none &none &none   &none &none &none &none &none &none
-            &none &none &none &none &none &none   &none &none &none &none &none &none
-                           &trans &trans &trans   &trans &trans &trans
+                           &trans &to 0 &mkp RCLK   &mkp LCLK 0 &to 0 &trans
                         >;
                 };
         };
