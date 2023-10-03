@@ -100,7 +100,7 @@
         keymap {
                 compatible = "zmk,keymap";
 
-		&mmv {
+		mmv {
 			time-to-max-speed-ms = <400>;
 		};
 
