@@ -94,6 +94,13 @@
 		    tapping-term-ms = <150>;
 		    bindings = <&kp LBKT>, <&kp RBKT>;
 		};
+		td_apos: tdapos {
+		    compatible = "zmk,behavior-tap-dance";
+		    label = "TDAPOS";
+		    #binding-cells = <0>;
+		    tapping-term-ms = <150>;
+		    bindings = <&kp APOS>, <&kp PIPE>;
+		};
 	};
 
 	macros {
